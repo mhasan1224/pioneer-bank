@@ -1,0 +1,16 @@
+/*font-family: 'Poppins', sans-serif;*/
+
+.hero{
+    font-family: Poppins;
+    background-color: #F8F9FA;
+}
+body h1{
+    font-size: 50px;
+}
+body h4{
+    font-size: 40px;
+}
+/*transection-area
+.b-content{
+    border-radius: 10px;
+}*/

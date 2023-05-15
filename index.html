@@ -6,7 +6,6 @@
     <!--custom css-->
     <link rel="stylesheet" href="style.css">
     <!--page add-->
-    <link rel="stylesheet" href="transection.html">
     <!--font awesome-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,27 +25,56 @@
             <h4>login</h4>
           </div>
           <div class="login-form">
-            <input type="email" name="email" id="" placeholder="email" class="form-control">
+            <input type="email" name="email" id="" placeholder="Email" class="form-control">
             <br>
-            <input type="password" name="password" id="" placeholder="password" class="form-control">
+            <input type="password" name="password" id="" placeholder="Password" class="form-control">
             <br>
             <button id="login" class="btn btn-success">Submit</button>
           </div>
         </div>
       </div>
     </section>
-    <section class="transection-section d-none">
+    <section id="transection-section">
       <div id="transection_area">
         <div class="container">
-          <div class="row mt-5 p-5">
-              <div class="col-md-4 mt-5 p-1 mb-5">
-                  <div class="b-content p-4 rounded-3 shadow-lg p-3 mb-5 bg-primary rounded">
-                      <h2>Deopsit</h2>
-                      <h1>$00</h1>
-                  </div>
+          <div class="row mt-3">
+            <div class="col-md-4 mt-4 p-5">
+              <div class="deposit p-4 rounded-3 shadow-lg p-3 mb-5">
+                <h5 class="text-white">Deopsit</h5>
+                <h2 class="text-white">$ 00</h2>
               </div>
+            </div>
+            <div class="col-md-4 mt-4 p-5">
+              <div class="withdraw p-4 rounded-3 shadow-lg p-3 mb-5">
+                <h5 class="text-white">Withdraw</h5>
+                <h2 class="text-white">$ 00</h2>
+              </div>
+            </div>
+            <div class="col-md-4 mt-4 p-5">
+              <div class="balance p-4 rounded-3 shadow-lg p-3 mb-5">
+                <h5 class="text-white">Balance</h5>
+                <h2 class="text-white">$ 00</h2>
+              </div>
+            </div>
           </div>
-          <div class="row"></div>
+          <div class="row">
+            <div class="col-md-6 px-4">
+              <div class="deposit_area p-4 rounded-3 shadow-lg p-5 mb-5">
+                <h4 class="text-black">Deopsit</h4>
+                <input type="text" name="amount" id="amountDeposit" placeholder="$ Enter amount you want to deposit" class="form-control">
+                <br>
+                <button id="addAmount" class="btn btn-success">Deopsit</button>
+              </div>
+            </div>
+            <div class="col-md-6 px-4">
+              <div class="withdraw_area p-4 rounded-3 shadow-lg p-5 mb-5">
+                <h4 class="text-black">Withdraw</h4>
+                <input type="text" name="amount" id="" placeholder="$ Enter amount you want to withdraw" class="form-control">
+                <br>
+                <button id="amount_withdraw" class="btn btn-success">Withdraw</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

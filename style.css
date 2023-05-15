@@ -14,3 +14,15 @@ body h4{
 .b-content{
     border-radius: 10px;
 }*/
+#transection-section{
+    display: none;
+}
+.deposit{
+    background-color: #5445BB;
+}
+.withdraw{
+    background-color: #E0865F;
+}
+.balance{
+    background-color: #fca910;
+}
